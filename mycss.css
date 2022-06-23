@@ -15,7 +15,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif;
+  overflow: hidden;
 }
 html {
   font-size: 10px;
@@ -45,26 +46,46 @@ i.fa.fa-bars {
   font-size: 2rem;
 }
 
-/* img {
-  width: 100%;
+img.rounded-circle {
+  margin-top: 2rem;
+  width: 450px;
+  height: 450px;
+  border: 1px solid blue;
 }
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
-
-
-
-
+h1.hello-h1 {
+  font-size: 4rem;
+   margin-top: 2rem;
+}
+p.hello-p {
+  font-size: 2rem;
+  margin-top: 0.7rem;
+}
 
 /* MEDIA QUERIES SECTION */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   a.nav-link.active {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
+  img.rounded-circle {
+    
+    margin-left:9rem;
+    margin-right:8rem;
+    width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+  }
+  p.text {
+    font-size: 1.3rem;
+    min-width: 200px;
+  }
+  h1.hello-h1 {
+    font-size: 3rem;
+  }
+  p.hello-p {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
 }
