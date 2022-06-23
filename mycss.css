@@ -66,10 +66,35 @@ p.hello-p {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: blue;
+   background-color: rgb(155, 153, 153);
    color: white;
    text-align: center;
 }
+a.link {
+    text-decoration: none;
+    color: white;
+}
+h3{
+  font-size: 2rem;
+  color: black;
+}
+.fot{
+  font-size: 1.2rem;
+}
+i.fa-brands.fa-snapchat {
+    font-size: 2rem;
+    color: yellow;
+}
+i.fa-brands.fa-instagram {
+    font-size: 2rem;
+    color: rgb(138, 29, 138);
+}
+i.fa-brands.fa-twitter {
+    font-size: 2rem;
+    color: rgb(150, 221, 245);
+}
+
+
 
 /* MEDIA QUERIES SECTION */
 
