@@ -61,6 +61,15 @@ p.hello-p {
   font-size: 2rem;
   margin-top: 0.7rem;
 }
+.footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
 
 /* MEDIA QUERIES SECTION */
 
