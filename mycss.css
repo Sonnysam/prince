@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap");
+:root {
+  --color: #ff6734;
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter: hsl(207, 93%, 46%);
+  --fb: hsl(221, 89%, 41%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: "Nunito", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+a.navbar-brand {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.navbar-toggler {
+  box-shadow: none !important;
+}
+.fa-bars {
+  font-size: 2rem;
+}
+button.navbar-toggler {
+  border: none;
+}
+i.fa.fa-bars {
+  color: black;
+  font-size: 2rem;
+}
+
+/* img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+
+
+
+
+/* MEDIA QUERIES SECTION */
+
+@media screen and (max-width: 767px){
+  a.nav-link.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
